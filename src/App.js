@@ -4,6 +4,7 @@ import Barralateral from './componentes/Barralateral';
 import FormularioDI from './componentes/FormularioDI';
 import LineasDeInvestigacion from './componentes/LineasDeInvestigacion';
 import FormacionAcademica from './componentes/FormacionAcademica';
+import PlanTrabajo from './componentes/PlanTrabajo';
 
 const App = () => {
   const [currentSection, setCurrentSection] = useState('');
@@ -17,7 +18,7 @@ const App = () => {
       case 'lineaInvestigacion':
         return <LineasDeInvestigacion />;
       case 'PlanTrabajo':
-        return <div>Plan de trabajo (pendiente)</div>;
+        return <PlanTrabajo />;
       case 'FichaRacionalizacion':
         return <div>Ficha de Razionalizacion (pendiente)</div>;
       case 'Actividades':
