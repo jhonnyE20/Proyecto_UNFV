@@ -5,6 +5,10 @@ import FormularioDI from './componentes/FormularioDI';
 import LineasDeInvestigacion from './componentes/LineasDeInvestigacion';
 import FormacionAcademica from './componentes/FormacionAcademica';
 import PlanTrabajo from './componentes/PlanTrabajo';
+import FichaRacionalizacion from './componentes/FichaRacionalizacion';
+import CargaHoraria from './componentes/CargaHoraria';
+import GenerarReportes from './componentes/GenerarReportes';
+
 
 const App = () => {
   const [currentSection, setCurrentSection] = useState('');
@@ -20,13 +24,13 @@ const App = () => {
       case 'PlanTrabajo':
         return <PlanTrabajo />;
       case 'FichaRacionalizacion':
-        return <div>Ficha de Razionalizacion (pendiente)</div>;
+        return <FichaRacionalizacion />;
       case 'Actividades':
         return <div>Actividades (pendiente)</div>;
       case 'CargaHoraria':
-        return <div>Carga Horaria (pendiente)</div>;
+        return <CargaHoraria />;
       case 'Reportes':
-      return <div>Reportes (pendiente)</div>;
+      return <GenerarReportes />;
     }
   };
 

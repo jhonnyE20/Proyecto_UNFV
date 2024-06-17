@@ -33,7 +33,7 @@ const Barralateral = ({ setCurrentSection }) => {
         Plan de Trabajo
       </div>
       <div className="menu-item" onClick={() => setCurrentSection('FichaRacionalizacion')}>
-        Ficha de Razionalizacion
+        Ficha de Racionalizacion
       </div>
       <div className="menu-item" onClick={() => setCurrentSection('Actividades')}>
         Actividades

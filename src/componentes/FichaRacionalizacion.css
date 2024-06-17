@@ -1,0 +1,95 @@
+.ficha-racionalizacion-container {
+    padding: 20px;
+    max-width: 100%;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.seccion-1-container {
+    .seccion-title{
+    margin: 0;
+    padding: 10px;
+    background-color: #e0f7fa;
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+    }
+}
+
+.seccion-2-container {
+    .seccion-title{
+    margin: 0;
+    padding: 10px;
+    background-color: #e0f7fa;
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+    }
+
+    .form-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+}
+
+.seccion-3-container {
+
+
+    .seccion-title{
+    margin: 0;
+    padding: 10px;
+    background-color: #e0f7fa;
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+    }
+
+    label {
+        display: inline-block;
+    }
+    
+    .form-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-right: 5px; /* Ajusta el espacio entre los grupos */
+    }
+
+    input[type="text"] {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 70px; /* Ajusta el ancho según sea necesario */
+    }
+}
+
+.seccion-4-container {
+    .seccion-title{
+    margin: 0;
+    padding: 10px;
+    background-color: #e0f7fa;
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+    }
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
