@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import logo from '../imagenes/logo_unfv.PNG';
 import './Barralateral.css';

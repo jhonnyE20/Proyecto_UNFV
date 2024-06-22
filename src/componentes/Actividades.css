@@ -1,0 +1,34 @@
+.actividades-container {
+    padding: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tablink {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+
+  .tablink:hover{
+    background-color: #FFB45C;
+  }
+  
+  .tablink.active {
+    background-color: #FFB45C;
+    color: black;
+  }
+  
+  .tabcontent.active {
+    display: block;
+  }
+
+  .br {
+    background-color: #FFB45C;
+  }
+  

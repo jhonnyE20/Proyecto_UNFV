@@ -8,6 +8,7 @@ import PlanTrabajo from './componentes/PlanTrabajo';
 import FichaRacionalizacion from './componentes/FichaRacionalizacion';
 import CargaHoraria from './componentes/CargaHoraria';
 import GenerarReportes from './componentes/GenerarReportes';
+import Actividades from './componentes/Actividades';
 
 
 const App = () => {
@@ -26,7 +27,7 @@ const App = () => {
       case 'FichaRacionalizacion':
         return <FichaRacionalizacion />;
       case 'Actividades':
-        return <div>Actividades (pendiente)</div>;
+        return <Actividades />;
       case 'CargaHoraria':
         return <CargaHoraria />;
       case 'Reportes':
