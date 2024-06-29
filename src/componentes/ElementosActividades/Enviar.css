@@ -1,0 +1,38 @@
+.enviar-container {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 10px;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form .enviar-button {
+    padding: 10px;
+    background-color: #1B69B1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form .enviar-button:hover {
+    background-color: #517ea9;
+}
+
+
+.note {
+    margin-top: 20px;
+    color: #666;
+}

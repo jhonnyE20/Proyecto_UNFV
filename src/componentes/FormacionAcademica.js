@@ -76,7 +76,7 @@ const FormacionAcademica = () => {
       </button>
 
       <h3>Grados académicos del Docente Investigador</h3>
-      <table>
+      <table className="table">
         <thead>
           <tr>
             <th>#</th>

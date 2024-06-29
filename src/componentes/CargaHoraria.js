@@ -33,7 +33,7 @@ const CargaHoraria = () => {
             </div>
             <button className="upload-button">Subir Archivo</button>
             <h3>Documentos de Carga Horaria</h3>
-            <table>
+            <table className="table">
                 <thead>
                     <tr>
                         <th>#</th>

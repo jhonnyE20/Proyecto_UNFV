@@ -10,7 +10,6 @@ import CargaHoraria from './componentes/CargaHoraria';
 import GenerarReportes from './componentes/GenerarReportes';
 import Actividades from './componentes/Actividades';
 
-
 const App = () => {
   const [currentSection, setCurrentSection] = useState('');
 
